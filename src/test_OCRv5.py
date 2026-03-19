@@ -72,7 +72,7 @@ from paddlex.inference.models.text_recognition.predictor import TextRecPredictor
 print(f"--- Paddle 引擎版本: {paddle.__version__} ---")
 
 # 2. 定義模型與圖片路徑
-v5_rec_model_dir = r"./inference/ch_PP-OCRv5_rec_infer"
+v5_rec_model_dir = r"./models/ch_PP-OCRv5_rec_infer"
 
 
 try:
