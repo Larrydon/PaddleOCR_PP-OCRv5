@@ -1,0 +1,20 @@
+numpy==1.26.4
+paddleocr==3.3.2
+paddlex==3.3.11
+opencv-contrib-python==4.10.0.84
+shapely
+scikit-image
+pyclipper
+lmdb
+tqdm
+numpy
+rapidfuzz
+opencv-python
+cython
+Pillow
+pyyaml
+requests
+albumentations
+# to be compatible with albumentations
+albucore
+packaging
