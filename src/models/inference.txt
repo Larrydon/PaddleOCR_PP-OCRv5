@@ -1,1 +1,2 @@
 ﻿這邊放權重的客製化路徑
+inference.pdiparams 檔案最大的權重檔，這邊不放

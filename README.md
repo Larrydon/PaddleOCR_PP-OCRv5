@@ -32,7 +32,7 @@ Python:3.9.25
 官網-快速開始<br>
 https://www.paddleocr.ai/v3.3.2/version3.x/installation.html<br>
 
-#### Step 1: 安裝核心引擎 (PaddlePaddle/PaddlePaddle-GPU)<br>
+### 2.Step 1: 安裝核心引擎 (PaddlePaddle/PaddlePaddle-GPU)<br>
 ##### CPU 版本 3.2.2
 ##### 使用官方指定的 CPU 鏡像源安裝 3.2.2 正式版
 >	pip install paddlepaddle==3.2.2 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
@@ -75,7 +75,7 @@ https://www.paddleocr.ai/v3.3.2/version3.x/installation.html<br>
 	這邊的 paddlepaddle是引擎和 PaddleOCR要跑得版本無關(引擎和OCR版本是可以分開的)，<br>
     只是最好儘量可以是相同的版本比較不會呼叫錯誤<br>
 
-##### Step 2: 安裝基礎依賴 (requirements.txt) 
+### 2.Step 2: 安裝基礎依賴 (requirements.txt) 
 若有下載Code可以做，不會改到CODE就手動繼續往下裝就好了，可以直接使用PIP安裝好的套件直接來推論和訓練
 > pip install -r requirements.txt
 
