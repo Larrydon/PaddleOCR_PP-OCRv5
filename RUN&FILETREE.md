@@ -5,8 +5,11 @@
 				|----dict_taiwan_car.txt	台灣車牌字典，中英42字，和V3一樣
 				|----draw_log.py	./output/TW_PP-OCRv5_Result/train.log 可視化 training_loss_plot.png
 				|----PaddleX_API.py	測試用新的平台 PaddleX是否可以呼叫訓練V5成功? 都沒有成功才放棄這條路的，改回原本呼叫呼叫PaddleOCR程式碼的訓練
+				|----PT2ONNX.py	將 .pt檔轉成 .onnx檔
+				|----split_rec_gt_2_train_data.py	將 train_data 下的 rec_gt.txt 自動按照 0.75的比例分成 train_list.txt 和 val_list.txt
 				|----test_OCRv5.py	用來測試新的呼叫API，可否正確使用 PP-OCRv5 來辨識成功
 				|----TW_PP-OCRv5.yaml	V5是多頭式模型，因此不會有CPU的版本了(會很慢，有大量的CPU運算)，都使用GPU來訓練
+				|----YOLOv8OCR.py	將V3版本的YOLO-Pose 的.pt檔，改成ONNX
  
 - `.gitignore`
 - `CHANGELOG.md`
